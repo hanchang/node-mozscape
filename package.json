@@ -4,14 +4,16 @@
   "version": "0.1.1",
   "author": "Scott Wyatt",
   "main": "lib/mozscape.js",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "http://github.com/scott-wyatt/node-mozscape.git"
+    "url": "https://github.com/hanchang/node-mozscape.git"
   },
   "engines": {
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "request": "^2.42.0"
+    "request": "^2.42.0",
+    "crypto": "0.0.3"
   }
 }
